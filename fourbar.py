@@ -4,7 +4,7 @@ from manim.scene.scene import Scene
 config.background_color = "#0e1a25"
 
 
-class PogFourBar(Scene):
+class FourBar(Scene):
     def construct(self):
         def fourBar(theta2):
             """Computes the angles for link b and c of a four bar linkage"""
